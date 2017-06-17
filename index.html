@@ -1,1 +1,25 @@
-<h2>Welcom to wxSwift</h2>The wxSwift project implements a binding from the portable GUI library wxWidgets to Swift.<br/><br/>Visit sourceforge <a href="http://wxswift.sourceforge.net">wxSwift</a>
+---
+layout: page
+---
+<h2>Welcom to wxSwift</h2>
+The wxSwift project implements a binding from the portable GUI library <a href="http://www.wxWidgets.org"><b>wxWidgets</b></a> to Swift. Currently wxSwift is being implemented on MinGW-w64 and it is in very early stage.
+<br/><br/>
+<h2>Download</h2>
+Download <a href="https://github.com/SwiftForWindows/SwiftForWindows/releases/download/v1.6/SwiftForWindows-1.6.exe"><b>Swift for Windows 1.6</b></a>  which includes wxSwift alpha version. (<a href="http://SwiftForWindows.github.io"><b>http://SwiftForWindows.github.io</b></a>)
+<br/><br/>
+<h2>Screenshots</h2>
+<table height="20"></table>
+Following GUI were written in Swift using wxSwift.
+<table height="20"></table>
+<img src="/img/sfw16_cap3.png" width=800 height=480/> 
+<table height="20"></table>
+<table height="20"></table>
+<pre>
+import wx
+
+var app = wx.App()
+
+_ = wx.MessageDialog(wx.Window(), "Hello Window", "HelloWin", style:wx.OK).showModal()
+</pre>
+<table height="20"></table>
+<img src="/img/sfw16_cap5.png"/>
